@@ -1,4 +1,4 @@
-# Phsycomindset Model Chatbot using LangChain and DialogSum Dataset
+# Phsycomindset Model Chatbot using LangChain
 
 PsychoLLM is a Retrieval-Augmented Generation (RAG) system that utilizes a fine-tuned text generation model to deliver precise answers based on a curated dataset of psychological questions and answers
 
