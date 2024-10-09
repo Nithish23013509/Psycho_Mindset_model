@@ -1,12 +1,15 @@
 # Phsycomindset Model Chatbot using LangChain and DialogSum Dataset
 
-This repository contains the **Phsycomindset Model** chatbot, designed to understand different situational contexts. The chatbot adapts its responses based on real-world dialogue datasets, making it versatile in handling various conversational scenarios. It uses the **LangChain** framework and integrates the **DialogSum** dataset from Hugging Face.
+PsychoLLM is a Retrieval-Augmented Generation (RAG) system that utilizes a fine-tuned text generation model to deliver precise answers based on a curated dataset of psychological questions and answers
 
 ## Features
 
-- **Adaptive Personality**: The chatbot adjusts its tone and responses based on the situation, helping it understand different contexts.
-- **DialogSum Dataset**: Utilizes real-world dialogue data to provide realistic and diverse conversational responses.
-- **LangChain Integration**: Built using LangChain, allowing flexible and context-driven language model conversations.
+- **Dynamic Question Answering:** Provides accurate answers to user queries based on a curated psychological dataset.
+- **Efficient Document Retrieval:** Utilizes FAISS for quick and effective similarity search across a large number of documents.
+- **Contextual Understanding:** Integrates Hugging Face embeddings to enhance comprehension of user queries.
+- **Customizable Output Length:** Allows users to define the length of the generated response with the max_new_tokens parameter.
+- **Seamless Integration:** Built with LangChain for smooth interactions and an enhanced user experience.
+- **Fine-tuned Text Generation Model:** Employs a robust model specifically tuned for psychological content to ensure relevance and accuracy.
 
 ### Prerequisites
 
@@ -14,3 +17,9 @@ This repository contains the **Phsycomindset Model** chatbot, designed to unders
 - [Hugging Face Datasets](https://huggingface.co/docs/datasets/)
 - [LangChain](https://github.com/langchain-ai/langchain) framework
 
+### Sample Output:
+![image](https://github.com/user-attachments/assets/556fa86c-595b-4258-bdc6-43234722ac2f)
+
+
+---
+Credits - parsi-ai-nlpclass/Psychology_RAG (for dataset)
